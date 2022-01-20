@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(103, 10, 190);
+}
+
+h1 {
+  background-color: rgb(103, 10, 190);
+  color: white;
+  align-content: center;
+  height: 6%;
+  width: 9cm;
+  margin-left: 15cm;
+  font-size: 250%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.search-btn {
+  width: 8%;
+  font-size: 120%;
+  /* border-radius: 36%; */
+  border-color: rgb(51, 212, 137);
+  background-color: rgb(97, 97, 223);
+  color: beige;
+}
+
+input {
+  font-size: 120%;
+  width: 20%;
+  /* border-radius: 5%; */
+  /* background-color: rgb(97, 97, 223); */
+  /* background-color: rgb(97, 97, 223); */
+}
+
+.container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* background-color: rgb(98, 98, 180); */
+  /* width: 80%; */
+  /* height: 72%; */
+  /* margin-left: 10%; */
+  font-size: 220%;
+  color: rgb(241, 241, 241);
+  /* margin-bottom: 10%; */
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.message {
+  font-size: 220%;
+  color: beige;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.message:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.greeting {
+  font-size: 220%;
+  color: beige;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
