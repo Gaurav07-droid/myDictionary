@@ -14,8 +14,9 @@ const getdictionary = async function (word) {
     const res = await fetch(
       `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
     );
-    if (!res.ok) alert(`sorry!could not found that word.Please try again `);
-
+    if (!res.ok){alert(`sorry!could not found that word.Please try again `);
+               greetingMssg.style.opacity = 0; 
+                }
     //getting data
     const dataOld = await res.json();
     const data = dataOld[0];
